@@ -2,7 +2,7 @@ import { UserModel } from './user.model';
 import { AuthData } from './auth-data.module';
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs/index';
-import { Router } from "@angular/router";
+import { Router } from '@angular/router';
 
 @Injectable()
 export class AuthService {
